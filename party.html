@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mosaic Panel</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }	
+    .mosaic-panel {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 columns */
+      grid-template-rows: repeat(4, 1fr);  /* 4 rows */
+      gap: 5px; /* Space between images */
+      width: 80%;
+      margin: 20px auto;
+    }
+    .mosaic-panel img {
+      width: 100%;
+      height: auto;
+      object-fit: cover; /* Ensures images fill their cells */
+      border-radius: 4px; /* Optional: Rounded corners */
+    }
+  </style>
+</head>
+<body>
+	<div class="hero">
+		<div class="hero-content">
+		  <h1>Welcome to Our Website</h1>
+		  <p>Your journey to excellence starts here. Explore our services and offerings.</p>		 
+		</div>
+	</div>
+  
+  <div class="mosaic-panel">
+    <img src="./party/party1.jpg" alt="Image 1">
+    <img src="./party/party2.jpg" alt="Image 2">
+    <img src="./party/party3.jpg" alt="Image 3">
+    <img src="./party/party4.jpg" alt="Image 4">
+    <img src="./party/party5.jpg" alt="Image 5">
+    <img src="./party/party6.jpg" alt="Image 6">
+    <img src="./party/party7.jpg" alt="Image 7">
+    <img src="./party/party8.jpg" alt="Image 8">
+    <img src="./party/party9.jpg" alt="Image 9">
+    <img src="./party/party10.jpg" alt="Image 10">  
+  </div>
+</body>
+</html>
+ 
