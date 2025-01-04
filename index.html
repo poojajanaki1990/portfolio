@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Glam Studio By Janaki</title>
+    <title>Glam By Janaki</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <!-- MDB Social Icons CSS -->
@@ -13,10 +13,11 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For Font Awesome -->
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="The Glam Studio By Janaki">
-    <meta property="og:description" content="Enhance your beauty with Janaki's professional makeup and hair styling services. Your beauty, my art.">
-    <meta property="og:image" content="https://theglamstudio.netlify.app/heroimage.jpg">
-    <meta property="og:url" content="https://theglamstudio.netlify.app/">
+    <meta property="og:title" content="Glam By Janaki">
+    <meta property="og:description"
+        content="Enhance your beauty with Janaki's professional makeup and hair styling services. Your beauty, my art.">
+    <meta property="og:image" content="https://glambyjanaki.netlify.app/heroimage.jpg">
+    <meta property="og:url" content="https://glambyjanaki.netlify.app/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Janaki Makeup & Hair">
     <style>
@@ -29,7 +30,7 @@
             }
 
             #backToTop {
-                display: none;
+                display: none !important;
             }
         }
 
@@ -166,11 +167,11 @@
     <!-- Sticky Header -->
     <nav class="sticky-header bg-gray-800 text-white">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="#home" class="text-3xl font-bold">The Glam Studio</a>
+            <a href="#home" class="text-3xl font-bold">Glam By Janaki</a>
             <div class="hidden md:flex space-x-6">
-                <a href="#about" class="hover:text-blue-400">About</a>
                 <a href="#portfolio" class="hover:text-blue-400">Portfolio</a>
                 <a href="#services" class="hover:text-blue-400">Services</a>
+                <a href="#about" class="hover:text-blue-400">About</a>
                 <a href="#contact" class="hover:text-blue-400">Contact</a>
             </div>
             <button class="md:hidden text-white focus:outline-none" id="menuToggle">
@@ -179,9 +180,9 @@
         </div>
         <!-- Mobile Menu -->
         <div id="mobileMenu" class="hidden flex-col bg-gray-800 text-white space-y-4 px-6 py-4">
-            <a href="#about" class="block hover:text-blue-400">About</a>
-            <a href="#portfolio" class="block hover:text-blue-400">Portfolio</a>
+            <a href="#portfolio" class="hover:text-blue-400">Portfolio</a>
             <a href="#services" class="block hover:text-blue-400">Services</a>
+            <a href="#about" class="block hover:text-blue-400">About</a>
             <a href="#contact" class="block hover:text-blue-400">Contact</a>
         </div>
     </nav>
@@ -191,17 +192,7 @@
         style="background-image: url('./heroimage.jpg'); background-size: cover; background-position: center;">
         <div class="text-center px-4 scale-50">
             <h1 class="text-5xl md:text-7xl font-bold mb-4">Your Beauty, My Art</h1>
-            <p class="text-lg md:text-2xl">Professional Makeup and Hair Styling Services</p>
-        </div>
-    </div>
-
-    <!-- About Me -->
-    <div id="about" class="py-16 px-8 md:px-16 bg-gray-800">
-        <h2 class="text-4xl font-bold text-center mb-8">About Me</h2>
-        <div class="max-w-3xl mx-auto text-center">
-            <p class="text-lg">Hi! I'm Janaki, a passionate makeup and hair artist dedicated to enhancing beauty and
-                creating unforgettable looks. From weddings to photoshoots, I bring creativity and professionalism to
-                every project.</p>
+            <p class="text-lg md:text-4xl">Professional Makeup and Hair Styling Services</p>
         </div>
     </div>
 
@@ -212,61 +203,46 @@
             <div class="relative bg-gray-800 shadow-lg rounded-lg overflow-hidden group">
                 <div class="relative bg-cover bg-center w-full h-60 group-hover:scale-105 transition-transform duration-300"
                     style="background-image: url('./bridal.png'); background-size: auto;">
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-300 group-hover:bg-opacity-0">
-                    </div>
                 </div>
                 <div class="p-6 text-center">
                     <h3 class="text-2xl font-semibold mb-4 text-white">Bridal Makeup</h3>
-                    <p class="text-white">Transform your special day with a flawless bridal look. or Enhancing your
-                        natural beauty for a flawless, radiant bridal look on your special day.</p>
-                    <a href="./bridal.html" class="text-blue-400 hover:underline mt-4 block">Learn more</a>
+                    <p class="text-white">Enhancing your natural beauty for a flawless, radiant bridal look on your special day.</p>
+                    <a href="./bridal.html" class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 transition-all duration-200 mt-4 block text-center">Photos</a>
                 </div>
             </div>
 
             <div class="relative bg-gray-800 shadow-lg rounded-lg overflow-hidden group">
                 <div class="relative bg-cover bg-center w-full h-60 group-hover:scale-105 transition-transform duration-300"
                     style="background-image: url('./event.jpg'); background-size: auto;">
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-300 group-hover:bg-opacity-0">
-                    </div>
                 </div>
                 <div class="p-6 text-center">
                     <h3 class="text-2xl font-semibold mb-4 text-white">Party Makeup</h3>
-                    <p class="text-white">Elegant makeup and hair for any occasion. or Get ready to shine with a bold,
-                        glamorous look for every celebration. or Perfect makeup for any occasion, making you feel
+                    <p class="text-white">Perfect makeup for any occasion, making you feel
                         beautiful and confident.</p>
-                    <a href="./party.html" class="text-blue-400 hover:underline mt-4 block">Learn more</a>
+                    <a href="./party.html" class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 transition-all duration-200 mt-4 block text-center">Photos</a>
                 </div>
             </div>
 
             <div class="relative bg-gray-800 shadow-lg rounded-lg overflow-hidden group">
                 <div class="relative bg-cover bg-center w-full h-60 group-hover:scale-105 transition-transform duration-300"
                     style="background-image: url('./softglam.png'); background-size: auto;">
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-300 group-hover:bg-opacity-0">
-                    </div>
                 </div>
                 <div class="p-6 text-center">
-                    <h3 class="text-2xl font-semibold mb-4 text-white">Soft Glam</h3>
-                    <p class="text-white">Step into the spotlight with a stunning, show-stopping red carpet look. or
-                        Effortlessly elegant with a soft glam look that highlights your natural beauty.</p>
-                    <a href="./softglam.html" class="text-blue-400 hover:underline mt-4 block">Learn more</a>
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Red Carpet Makeup</h3>
+                    <p class="text-white">Step into the spotlight with a stunning, show-stopping red carpet look.</p>
+                    <a href="./redcarpet.html" class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 transition-all duration-200 mt-4 block text-center">Photos</a>
                 </div>
             </div>
 
             <div class="relative bg-gray-800 shadow-lg rounded-lg overflow-hidden group">
                 <div class="relative bg-cover bg-center w-full h-60 group-hover:scale-105 transition-transform duration-300"
                     style="background-image: url('./adshoots.png'); background-size: auto;">
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-300 group-hover:bg-opacity-0">
-                    </div>
                 </div>
                 <div class="p-6 text-center">
                     <h3 class="text-2xl font-semibold mb-4 text-white">Natural Makeup</h3>
                     <p class="text-white">Embrace your natural beauty with a fresh, radiant makeup look that’s
                         effortlessly you.</p>
-                    <a href="./natural.html" class="text-blue-400 hover:underline mt-4 block">Learn more</a>
+                    <a href="./natural.html" class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 transition-all duration-200 mt-4 block text-center">Photos</a>
                 </div>
             </div>
         </div>
@@ -276,52 +252,43 @@
         <h2 class="text-4xl font-bold text-center mb-8 text-white">Services</h2>
         <div class="services-container flex flex-wrap gap-4 justify-center">
             <!-- Makeup Services Chips -->
-            <div class="chip px-4 py-2 bg-gray-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-gray-500"
+            <div class="chip px-4 py-2 bg-pink-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-pink-500"
                 data-bs-toggle="collapse" data-bs-target="#bridal-makeup" aria-expanded="false"
                 aria-controls="bridal-makeup">
-                <img src="./images/bridal-makeup.jpg" alt="Bridal Makeup" class="w-6 h-6 rounded-full object-cover">
                 Bridal Makeup
             </div>
-            <div class="chip px-4 py-2 bg-gray-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-gray-500"
+            <div class="chip px-4 py-2 bg-yellow-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-yellow-500"
                 data-bs-toggle="collapse" data-bs-target="#party-makeup" aria-expanded="false"
                 aria-controls="party-makeup">
-                <img src="./images/party-makeup.jpg" alt="Party Makeup" class="w-6 h-6 rounded-full object-cover">
                 Bridal Party Makeup
             </div>
-            <div class="chip px-4 py-2 bg-gray-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-gray-500"
+            <div class="chip px-4 py-2 bg-indigo-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-indigo-500"
                 data-bs-toggle="collapse" data-bs-target="#event-makeup" aria-expanded="false"
-                aria-controls="event-makeup">
-                <img src="./images/event-makeup.jpg" alt="Event Makeup" class="w-6 h-6 rounded-full object-cover"> Event
+                aria-controls="event-makeup">Event
                 & Party Makeup
             </div>
-            <div class="chip px-4 py-2 bg-gray-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-gray-500"
+            <div class="chip px-4 py-2 bg-red-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-red-500"
                 data-bs-toggle="collapse" data-bs-target="#photoshoot-makeup" aria-expanded="false"
-                aria-controls="photoshoot-makeup">
-                <img src="./images/photoshoot-makeup.jpg" alt="Photoshoot Makeup"
-                    class="w-6 h-6 rounded-full object-cover"> Makeup for Photoshoots
+                aria-controls="photoshoot-makeup">Makeup for Photoshoots
             </div>
 
             <!-- Hair Services Chips -->
-            <div class="chip px-4 py-2 bg-gray-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-gray-500"
+            <div class="chip px-4 py-2 bg-green-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-green-500"
                 data-bs-toggle="collapse" data-bs-target="#bridal-hair" aria-expanded="false"
                 aria-controls="bridal-hair">
-                <img src="./images/bridal-hair.jpg" alt="Bridal Hair Styling" class="w-6 h-6 rounded-full object-cover">
                 Bridal Hair Styling
             </div>
-            <div class="chip px-4 py-2 bg-gray-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-gray-500"
+            <div class="chip px-4 py-2 bg-purple-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-purple-500"
                 data-bs-toggle="collapse" data-bs-target="#bridal-party-hair" aria-expanded="false"
-                aria-controls="bridal-party-hair">
-                <img src="./images/bridal-party-hair.jpg" alt="Bridal Party Hair"
-                    class="w-6 h-6 rounded-full object-cover"> Bridal Party Hair Styling
+                aria-controls="bridal-party-hair">Bridal Party Hair Styling
             </div>
-            <div class="chip px-4 py-2 bg-gray-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-gray-500"
+            <div class="chip px-4 py-2 bg-orange-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-orange-500"
                 data-bs-toggle="collapse" data-bs-target="#event-hair" aria-expanded="false" aria-controls="event-hair">
-                <img src="./images/event-hair.jpg" alt="Event Hair Styling" class="w-6 h-6 rounded-full object-cover">
                 Event & Party Hair Styling
             </div>
-            <div class="chip px-4 py-2 bg-gray-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-gray-500"
+            <div class="chip px-4 py-2 bg-cyan-600 text-white rounded-full cursor-pointer flex items-center gap-2 hover:bg-cyan-500"
                 data-bs-toggle="collapse" data-bs-target="#extensions" aria-expanded="false" aria-controls="extensions">
-                <img src="./images/extensions.jpg" alt="Hair Extensions" class="w-6 h-6 rounded-full object-cover"> Hair
+                Hair
                 Extensions & Add-Ons
             </div>
         </div>
@@ -358,27 +325,37 @@
         </div>
     </div>
 
+    <!-- About Me -->
+    <div id="about" class="py-16 px-8 md:px-16 bg-gray-800">
+        <h2 class="text-4xl font-bold text-center mb-8">About Me</h2>
+        <div class="max-w-3xl mx-auto text-center">
+            <p class="text-lg">Hi! I'm Janaki, a passionate makeup and hair artist dedicated to enhancing beauty and
+                creating unforgettable looks. From weddings to photoshoots, I bring creativity and professionalism to
+                every project.</p>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer id="contact" class="bg-gray-800 text-white py-8">
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <p class="text-sm mb-4 md:mb-0">&copy; 2025 Janaki. All rights reserved.</p>
-                <div class="flex flex-col md:flex-row md:space-x-6">
+                <div class="flex flex-row space-x-6">
                     <!-- Social Media Links -->
                     <a href="https://instagram.com/pooja_janaki" target="_blank"
-                        class="mb-2 md:mb-0 text-3xl text-white hover:text-pink-600 block md:inline-block">
+                        class="mb-2 md:mb-0 text-3xl text-white hover:text-pink-600 inline-block">
                         <i class="fab fa-instagram"></i>
                     </a>
                     <a href="https://facebook.com/d.janakisharma" target="_blank"
-                        class="mb-2 md:mb-0 text-3xl text-white hover:text-blue-600 block md:inline-block">
+                        class="mb-2 md:mb-0 text-3xl text-white hover:text-blue-600 inline-block">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://wa.me/8940606000" target="_blank"
-                        class="mb-2 md:mb-0 text-3xl text-white hover:text-green-500 block md:inline-block">
+                    <a href="https://wa.me/918940606000" target="_blank"
+                        class="mb-2 md:mb-0 text-3xl text-white hover:text-green-500 inline-block">
                         <i class="fab fa-whatsapp"></i>
                     </a>
                     <a href="mailto:d.janakisharma@gmail.com"
-                        class="mb-2 md:mb-0 text-3xl text-white hover:text-gray-300 block md:inline-block">
+                        class="mb-2 md:mb-0 text-3xl text-white hover:text-gray-300 inline-block">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
@@ -454,24 +431,48 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // Change arrow direction when chip is clicked
-        document.querySelectorAll('.chip').forEach(chip => {
-            chip.addEventListener('click', function () {
-                const arrow = chip.querySelector('i');
-                if (arrow.classList.contains('fa-chevron-down')) {
-                    arrow.classList.remove('fa-chevron-down');
-                    arrow.classList.add('fa-chevron-up');
-                } else {
-                    arrow.classList.remove('fa-chevron-up');
-                    arrow.classList.add('fa-chevron-down');
-                }
-            });
-        });
-
         // Toggle Mobile Menu
         document.getElementById('menuToggle').addEventListener('click', () => {
             const mobileMenu = document.getElementById('mobileMenu');
             mobileMenu.classList.toggle('hidden');
+        });
+
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileLinks = mobileMenu.querySelectorAll('a'); // Select all anchor tags inside the menu
+
+        // Function to hide the menu when a link is clicked
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Define variables for the sticky header height and the smooth scrolling behavior
+        const headerHeight = 84; // Adjust this value to match your sticky header's height
+
+        // Function to handle smooth scrolling
+        function scrollToSection(event) {
+            event.preventDefault(); // Prevent the default anchor behavior
+
+            // Get the target section from the href attribute
+            const targetId = event.currentTarget.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            if (targetSection) {
+                // Calculate the position to scroll to, accounting for the sticky header
+                const targetPosition = targetSection.offsetTop - headerHeight;
+
+                // Smooth scroll to the calculated position
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth',
+                });
+            }
+        }
+
+        // Attach the event listener to all anchor links with a specific class or attribute
+        document.querySelectorAll('.sticky-header a').forEach((link) => {
+            link.addEventListener('click', scrollToSection);
         });
     </script>
 </body>
